@@ -10,5 +10,14 @@
     <string name="logintext">If you already have an account click here.</string>
     <string name="loginpage">Login</string>
     <string name="signuppage">Sign Up</string>
+    <string name="Welcome">Welcome</string>
+    <string name="wecomepageto">To</string>
+    <string name="Kyōzai">Kyōzai</string>
+    <string name="profile">Profile</string>
+    <string name="Emailidprofile">E-mail id</string>
+    <string name="mobno">Mobile no</string>
+    <string name="Addressprofile">Address</string>
+    <string name="college">College</string>
+    <string name="dobprofile">DOB</string>
 </resources>
 
