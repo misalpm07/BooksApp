@@ -8,5 +8,7 @@
     <string name="confirmpassword">Confirm Password</string>
     <string name="createmyac">Create My Account</string>
     <string name="logintext">If you already have an account click here.</string>
+    <string name="loginpage">Login</string>
+    <string name="signuppage">Sign Up</string>
 </resources>
 

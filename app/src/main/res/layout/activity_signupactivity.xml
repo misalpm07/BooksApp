@@ -17,7 +17,7 @@
         android:ems="10"
         android:fontFamily="@font/aguafina_script"
         android:inputType="textPersonName"
-        android:text="Sign Up"
+        android:text="@string/signuppage"
         android:textSize="95sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

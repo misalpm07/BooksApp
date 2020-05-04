@@ -18,7 +18,7 @@
         android:fontFamily="@font/aguafina_script"
         android:hint="@string/"
         android:inputType="textPersonName"
-        android:text="Login"
+        android:text="@string/loginpage"
         android:textSize="95sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
