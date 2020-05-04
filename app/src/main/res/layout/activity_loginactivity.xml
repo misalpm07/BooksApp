@@ -16,7 +16,6 @@
         android:backgroundTint="@color/colorAccent"
         android:ems="10"
         android:fontFamily="@font/aguafina_script"
-        android:hint="@string/"
         android:inputType="textPersonName"
         android:text="@string/loginpage"
         android:textSize="95sp"
