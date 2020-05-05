@@ -19,5 +19,9 @@
     <string name="Addressprofile">Address</string>
     <string name="college">College</string>
     <string name="dobprofile">DOB</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="contactus">Contact us</string>
+    <string name="submitbutton">Submit</string>
 </resources>
 
