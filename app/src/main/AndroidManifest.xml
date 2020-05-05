@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".profileactivity"></activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".contactus"></activity>
         <activity android:name=".loginactivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".signupactivity" />
-        <activity android:name=".contactus">
+        <activity android:name=".profileactivity" />
+        <activity android:name=".bookrequestactivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

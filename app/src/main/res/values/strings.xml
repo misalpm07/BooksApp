@@ -23,5 +23,11 @@
     <string name="message">Message</string>
     <string name="contactus">Contact us</string>
     <string name="submitbutton">Submit</string>
+    <string name="requestabook">Request a Book</string>
+    <string name="Bookname">Book Name</string>
+    <string name="author">Author</string>
+    <string name="publisher">Publisher</string>
+    <string name="edition">Edition</string>
+    <string name="addrequest">Add Request</string>
 </resources>
 

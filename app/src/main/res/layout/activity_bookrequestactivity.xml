@@ -2,41 +2,55 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/contactuspage"
+    android:id="@+id/bookrequest"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
-    tools:context=".contactus">
+    android:background="@android:color/holo_red_light"
+    android:backgroundTint="@color/colorAccent"
+    tools:context=".bookrequestactivity">
 
     <EditText
-        android:id="@+id/contactus"
-        android:layout_width="257dp"
-        android:layout_height="85dp"
-        android:background="@color/colorAccent"
+        android:id="@+id/requestabook"
+        android:layout_width="287dp"
+        android:layout_height="66dp"
+        android:backgroundTint="@color/colorAccent"
         android:ems="10"
-        android:fontFamily="sans-serif"
         android:inputType="textPersonName"
-        android:text="@string/contactus"
-        android:textSize="50sp"
+        android:text="@string/requestabook"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.068" />
+        app:layout_constraintVertical_bias="0.07999998" />
 
     <EditText
-        android:id="@+id/mail"
+        android:id="@+id/bookname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/Email"
+        android:hint="@string/Bookname"
         android:inputType="textPersonName"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.399" />
+        app:layout_constraintVertical_bias="0.25" />
+
+    <EditText
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/author"
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35000002" />
 
     <EditText
         android:id="@+id/subject"
@@ -50,47 +64,47 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.49" />
+        app:layout_constraintVertical_bias="0.45" />
 
     <EditText
-        android:id="@+id/message"
-        android:layout_width="298dp"
-        android:layout_height="65dp"
-        android:ems="10"
-        android:hint="@string/message"
-        android:inputType="textPersonName"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59000003" />
-
-    <EditText
-        android:id="@+id/nm"
+        android:id="@+id/publisher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/Name"
+        android:hint="@string/publisher"
         android:inputType="textPersonName"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.291" />
+        app:layout_constraintVertical_bias="0.55" />
 
-    <Button
-        android:id="@+id/submitbutton"
-        android:layout_width="180dp"
-        android:layout_height="59dp"
-        android:background="@android:color/darker_gray"
-        android:text="@string/submitbutton"
-        android:textSize="22sp"
+    <EditText
+        android:id="@+id/edition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edition"
+        android:inputType="textPersonName"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.779" />
+        app:layout_constraintVertical_bias="0.65" />
+
+    <Button
+        android:id="@+id/requestbutton"
+        android:layout_width="240dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="@string/addrequest"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
