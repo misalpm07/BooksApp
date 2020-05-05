@@ -96,8 +96,8 @@
 
     <Button
         android:id="@+id/requestbutton"
-        android:layout_width="240dp"
-        android:layout_height="57dp"
+        android:layout_width="245dp"
+        android:layout_height="60dp"
         android:backgroundTint="@android:color/darker_gray"
         android:text="@string/addrequest"
         android:textSize="20sp"
